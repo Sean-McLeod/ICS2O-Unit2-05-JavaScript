@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="area of a square">
+    <meta name="keywords" content="variables, math">
+    <meta name="author" content="sean mcleod">
+    <title> </title>
+  </head>
+  <body>
+    <input type="text" id="textbox" value="">
+    <button onclick="myfunction()">calculate the area of your square</button>
+    <script>
+      function myfunction() {
+        squreLength=document.getElementById("textbox").value;
+        squreArea=squreLength*squreLength;
+        alert ("The area of the squre is "+squreArea)
+      }
+    </script>
+    <p>Type in the squre's length to calculate the area</p>
+  </body>
+</html>
